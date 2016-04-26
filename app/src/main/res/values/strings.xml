@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Top Movies Pt. 2</string>
+    <string name="dummy">Dummy Text</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Title: </string>
+    <string name="original_title">Original Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="popularity">Popularity</string>
+    <string name="rating">Rating</string>
+    <string name="overview">Overview</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_reviews">There are no reviews</string>
+    <string name="view">"View "</string>
+    <string name="at">" at "</string>
+    <string name="favorite">Favorite</string>
+    <string name="no_videos">There are no videos Available</string>
+    <string name="addedFavs">Added to Favorite</string>
+    <string name="error_closing_stream">Error closing stream</string>
+
+
+    <!--<string name=""></string>-->
+</resources>

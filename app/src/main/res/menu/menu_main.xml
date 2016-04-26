@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ijzepeda.topmoviespt2.HolderActivity">
+    <item
+        android:showAsAction="always"
+        android:title="Sort"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/menuSortPopular"
+                android:title="@string/popularity" />
+            <item
+                android:id="@+id/menuSortRating"
+                android:title="@string/rating" />
+            <item
+                android:id="@+id/menuSortFav"
+                android:title="@string/favorite" />
+        </menu>
+    </item>
+</menu>

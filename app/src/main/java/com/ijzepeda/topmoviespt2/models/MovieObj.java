@@ -1,4 +1,4 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;

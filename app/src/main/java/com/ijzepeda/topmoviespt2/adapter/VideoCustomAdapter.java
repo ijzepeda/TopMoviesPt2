@@ -1,4 +1,4 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.adapter;
 
 
 import android.app.Activity;
@@ -12,6 +12,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.ijzepeda.topmoviespt2.R;
+import com.ijzepeda.topmoviespt2.models.Video;
 
 import java.util.ArrayList;
 

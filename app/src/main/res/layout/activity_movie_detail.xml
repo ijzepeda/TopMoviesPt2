@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.ijzepeda.topmoviespt2.HolderActivity">
+    tools:context=".activity.HolderActivity">
     <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
     <!--xmlns:tools="http://schemas.android.com/tools"-->
     <!--android:layout_width="match_parent"-->
@@ -14,7 +14,7 @@
     <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
     <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
     <!--android:paddingTop="@dimen/activity_vertical_margin"-->
-    <!--tools:context="com.ijzepeda.topmoviespt2.HolderActivity">-->
+    <!--tools:context="com.ijzepeda.topmoviespt2.activity.HolderActivity">-->
 
     <!--<android.support.design.widget.AppBarLayout-->
     <!--android:layout_width="match_parent"-->
@@ -45,7 +45,7 @@
         <!--android:layout_width="0dp"-->
         <!--android:layout_height="match_parent"-->
         <!--android:layout_weight="2"-->
-        <!--android:name="com.ijzepeda.topmoviespt2.MovieDetailFragment"-->
+        <!--android:name="com.ijzepeda.topmoviespt2.fragment.MovieDetailFragment"-->
         <!--android:id="@+id/fragment"-->
         <!--tools:layout="@layout/content_main"-->
         <!--android:layout_marginTop="56dp" />-->
@@ -55,7 +55,7 @@
         <!--android:layout_weight="2"-->
 
         <!--android:layout_height="match_parent"-->
-        <!--android:name="com.ijzepeda.topmoviespt2.MovieDetailFragment"-->
+        <!--android:name="com.ijzepeda.topmoviespt2.fragment.MovieDetailFragment"-->
         <!--android:id="@+id/fragmentDetail"-->
         <!--tools:layout="@layout/fragment_movie_detail"-->
         <!--android:layout_marginTop="56dp"/>-->

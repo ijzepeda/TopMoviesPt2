@@ -1,8 +1,11 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+
+import com.ijzepeda.topmoviespt2.R;
+import com.ijzepeda.topmoviespt2.fragment.MovieDetailFragment;
 
 public class MovieDetailActivity extends AppCompatActivity {
 

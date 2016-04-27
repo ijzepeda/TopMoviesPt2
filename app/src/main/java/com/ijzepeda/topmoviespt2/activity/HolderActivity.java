@@ -1,8 +1,12 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+
+import com.ijzepeda.topmoviespt2.R;
+import com.ijzepeda.topmoviespt2.fragment.MovListFragment;
+import com.ijzepeda.topmoviespt2.fragment.MovieDetailFragment;
 
 public class HolderActivity extends AppCompatActivity implements MovListFragment.OnMovieSelectedListener {
 

@@ -1,4 +1,4 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.adapter;
 
 
 import android.app.Activity;
@@ -11,6 +11,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
+
+import com.ijzepeda.topmoviespt2.R;
+import com.ijzepeda.topmoviespt2.models.Review;
 
 import java.util.ArrayList;
 

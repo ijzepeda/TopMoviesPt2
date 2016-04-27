@@ -1,4 +1,4 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.models;
 
 /**
  * Created by ivan.zepeda on 14/01/2016.

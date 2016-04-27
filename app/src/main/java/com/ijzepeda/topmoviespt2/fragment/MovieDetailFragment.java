@@ -1,4 +1,4 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.fragment;
 
 
 import android.content.Intent;
@@ -32,6 +32,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.ijzepeda.topmoviespt2.BuildConfig;
+import com.ijzepeda.topmoviespt2.R;
+import com.ijzepeda.topmoviespt2.activity.MovieDetailActivity;
+import com.ijzepeda.topmoviespt2.adapter.MoviesAdapter;
+import com.ijzepeda.topmoviespt2.adapter.ReviewCustomAdapter;
+import com.ijzepeda.topmoviespt2.adapter.VideoCustomAdapter;
+import com.ijzepeda.topmoviespt2.models.MovieObj;
+import com.ijzepeda.topmoviespt2.models.Review;
+import com.ijzepeda.topmoviespt2.models.Video;
+import com.ijzepeda.topmoviespt2.util.PaletteGeneratorTransformation;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;

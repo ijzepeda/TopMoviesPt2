@@ -1,4 +1,4 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.util;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;

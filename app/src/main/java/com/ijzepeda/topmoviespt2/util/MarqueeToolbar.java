@@ -1,4 +1,4 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.util;
 
 import android.content.Context;
 import android.support.v7.widget.Toolbar;

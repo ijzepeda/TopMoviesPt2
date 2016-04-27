@@ -1,4 +1,4 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,6 +14,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.ijzepeda.topmoviespt2.R;
+import com.ijzepeda.topmoviespt2.activity.HolderActivity;
+import com.ijzepeda.topmoviespt2.activity.MovieDetailActivity;
+import com.ijzepeda.topmoviespt2.fragment.MovieDetailFragment;
+import com.ijzepeda.topmoviespt2.models.MovieObj;
+import com.ijzepeda.topmoviespt2.util.PaletteGeneratorTransformation;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.ijzepeda.topmoviespt2;
+package com.ijzepeda.topmoviespt2.fragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,11 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.ijzepeda.topmoviespt2.R;
+
 
 /**
  *
  */
-public class MovieList extends Fragment {
+public class MovieListFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -24,7 +26,7 @@ public class MovieList extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public MovieList() {
+    public MovieListFragment() {
         // Required empty public constructor
     }
 
@@ -32,8 +34,8 @@ public class MovieList extends Fragment {
      *
      */
     // TODO: Rename and change types and number of parameters
-    public static MovieList newInstance(String param1, String param2) {
-        MovieList fragment = new MovieList();
+    public static MovieListFragment newInstance(String param1, String param2) {
+        MovieListFragment fragment = new MovieListFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
